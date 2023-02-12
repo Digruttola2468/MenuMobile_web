@@ -1,12 +1,6 @@
-const iconMenuMobile = document.querySelector(".menu-container-icon");
-const links = document.querySelector(".menu-container-links");
-const iconCloseMobile = document.querySelector(".menu-closeMobile");
-
+const iconMenuMobile = document.querySelector(".icon-menu-mobile");
+const menuContainer = document.querySelector(".menu-container");
 
 iconMenuMobile.addEventListener("click", ()=> {
-    links.classList.toggle("mostrar");
-});
-
-iconCloseMobile.addEventListener("click", ()=> {
-    links.classList.toggle("mostrar");
+    menuContainer.classList.toggle("show-menuMobile");
 });
